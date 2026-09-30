@@ -1,6 +1,7 @@
 # 3sem_HW1
 ## Сборка и запуск
 cmake --build build && ./build/bench
+## Запуск тестов
 ctest --test-dir build --output-on-failure
 
 ### Тесты
