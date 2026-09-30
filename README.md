@@ -1,5 +1,5 @@
 # 3sem_HW1
-###Тесты
+### Тесты
 impl                      n    create_ms   destroy_ms     rss_kb
 raw                      10        0.001        0.000        324
 UnqPtr                   10        0.001        0.000        324
@@ -38,7 +38,7 @@ std::unique_ptr     1000000       35.103        9.881      39080
 std::shared_ptr     1000000       70.318       20.606      78044
 
 
-###Valgrind тесты
+### Valgrind тесты
 ==6363== Memcheck, a memory error detector
 ==6363== Copyright (C) 2002-2024, and GNU GPL'd, by Julian Seward et al.
 ==6363== Using Valgrind-3.24.0 and LibVEX; rerun with -h for copyright info
