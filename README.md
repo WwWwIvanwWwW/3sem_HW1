@@ -1,4 +1,8 @@
 # 3sem_HW1
+## Сборка и запуск
+cmake --build build && ./build/bench
+ctest --test-dir build --output-on-failure
+
 ### Тесты
 impl                      n    create_ms   destroy_ms     rss_kb
 raw                      10        0.001        0.000        324
